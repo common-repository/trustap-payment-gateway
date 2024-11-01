@@ -1,0 +1,16 @@
+{
+    "name": "trustap/payment-gateway",
+    "license": "proprietary",
+    "description": "Integration of the Trustap Payment Gateway for the WooCommerce.",
+    "autoload": {
+        "psr-4": {
+            "Trustap\\PaymentGateway\\": "./src"
+        }
+    },
+    "require": {
+        "jumbojett/openid-connect-php": "^0.9.6"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

@@ -1,0 +1,190 @@
+# Copyright (C) 2023 Trustap - WooCommerce Payment Gateway
+# This file is distributed under the same license as the Trustap - WooCommerce Payment Gateway package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Trustap - WooCommerce Payment Gateway 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/trustap-payment-gateway\n"
+"POT-Creation-Date: 2023-03-22 12:58:11+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: src/Controller/AbstractController.php:49
+#: src/Controller/AbstractController.php:71 src/Core/Checkout.php:87
+#: src/Core/Service.php:50 src/Core/Service.php:100 src/Core/Service.php:135
+#: src/Core/Service.php:162 src/Core/Service.php:244 src/Core/Service.php:282
+#: src/Core/Service.php:342
+msgid "Please try again."
+msgstr ""
+
+#: src/Core/Checkout.php:36
+msgid "First name is required!"
+msgstr ""
+
+#: src/Core/Checkout.php:43
+msgid "Last name is required!"
+msgstr ""
+
+#: src/Core/Checkout.php:50
+msgid "Email is required!"
+msgstr ""
+
+#: src/Core/Checkout.php:57
+msgid "<strong>Please accept Trustap Terms of Use</strong>"
+msgstr ""
+
+#: src/Core/Service.php:184
+msgid "Accept deposit manually."
+msgstr ""
+
+#: src/Core/Service.php:201
+msgid "Confirm handover manually."
+msgstr ""
+
+#: src/Core/Service.php:308
+msgid "Paid and confirmed"
+msgstr ""
+
+#: src/Core/Settings.php:17
+msgid "Enable/Disable"
+msgstr ""
+
+#: src/Core/Settings.php:21
+msgid "Enable Trustap Payments"
+msgstr ""
+
+#: src/Core/Settings.php:30
+msgid "Test mode"
+msgstr ""
+
+#: src/Core/Settings.php:31
+msgid "Enable Test Mode"
+msgstr ""
+
+#: src/Core/Settings.php:36
+msgid "Place the payment gateway in test mode using test API keys."
+msgstr ""
+
+#: src/Core/Settings.php:57
+msgid "Test Trustap Key"
+msgstr ""
+
+#: src/Core/Tracking.php:55
+msgid "Delivery truck"
+msgstr ""
+
+#: src/Core/Tracking.php:56
+msgid ""
+"\n"
+"          The order is shipped successfully. The order status will change\n"
+"          into \"Delivered\" when the order is being delivered."
+msgstr ""
+
+#: src/Core/Tracking.php:67
+msgid "Checkmark icon"
+msgstr ""
+
+#: src/Core/Tracking.php:68
+msgid ""
+"\n"
+"          This order is delivered successfully."
+msgstr ""
+
+#: src/Core/Tracking.php:115
+msgid "Shipped"
+msgstr ""
+
+#: src/Core/Tracking.php:116
+msgid "Delivered"
+msgstr ""
+
+#: src/Enumerators/Message.php:12
+msgid "You logged in successfully!"
+msgstr ""
+
+#: src/Enumerators/Message.php:15
+msgid "You logged out successfully!"
+msgstr ""
+
+#: src/Gateway.php:22
+msgid "Trustap Payments"
+msgstr ""
+
+#: src/Gateway.php:23
+msgid "Use Trustap as your payment method."
+msgstr ""
+
+#: src/Gateway.php:151
+msgid ""
+"We currently don't support different types of products in cart.\n"
+"                    Please select only digital products and continue or choose only products\n"
+"                    which will get delivered to you by post."
+msgstr ""
+
+#: src/View/settings/ShippingDetailsForm.php:11
+#: src/View/settings/ShippingDetailsForm.php:25
+msgid "Carrier"
+msgstr ""
+
+#: src/View/settings/ShippingDetailsForm.php:33
+msgid "Tracking code"
+msgstr ""
+
+#: src/View/settings/ShippingDetailsForm.php:38
+msgid "Select \"Other\" at the bottom of the list if you can't find your carrier."
+msgstr ""
+
+#: src/View/settings/ShippingDetailsForm.php:47
+msgid "Submit"
+msgstr ""
+
+#: src/View/settings/TrustapKeyForm.php:7
+msgid "Login"
+msgstr ""
+
+#: src/View/settings/TrustapKeyForm.php:8
+msgid "Logout"
+msgstr ""
+
+#: src/View/settings/TrustapKeyForm.php:14
+msgid "Trustap Keys"
+msgstr ""
+
+#: src/View/settings/TrustapKeyForm.php:26
+msgid ""
+"Before you can use the Trustap Payment Gateway you will\n"
+"                        need to link a Trustap account for payouts. Please enter\n"
+"                        your Trustap key and click on the Login button,\n"
+"                        which will redirect you to our login page. Please contact\n"
+"                        Trustap support if you don't yet have a Trustap key."
+msgstr ""
+
+#: src/View/settings/TrustapKeyForm.php:38
+msgid "Trustap Test Key"
+msgstr ""
+
+#: src/View/settings/TrustapKeyForm.php:76
+msgid "Trustap Live Key"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Trustap - WooCommerce Payment Gateway"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.trustap.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Take credit card payments on your store using Trustap."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Trustap Ltd"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.trustap.com/"
+msgstr ""

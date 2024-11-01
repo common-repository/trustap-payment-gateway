@@ -1,0 +1,240 @@
+.trustap-settings-container {
+    background-color: white;
+    font-weight: 600;
+    padding: 20px 30px;
+    border-radius: 6px;
+    border-radius: 4px;
+    border: 1px solid #8c8f94;
+}
+.trustap-settings-container p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+}
+.trustap-settings-container a,
+.trustap-settings-container strong {
+    display: contents;
+}
+.trustap-status-icon {
+    height: 40px;
+    margin-right: .5em;
+}
+.trustap-success-button {
+    margin: 0 .3em;
+    border: 0;
+    padding: 5px 50px;
+    background: -webkit-gradient(linear,left top, right top,color-stop(10%, #00b6ff),color-stop(90%, #05d1b8));
+    background: -o-linear-gradient(left,#00b6ff 10%,#05d1b8 90%);
+    background: linear-gradient(90deg,#00b6ff 10%,#05d1b8 90%);
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.3em;
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
+    cursor: pointer;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.trustap-success-button:hover {
+    -webkit-box-shadow: 0 8px 20px -10px #00b6ff;
+            box-shadow: 0 8px 20px -10px #00b6ff;
+}
+
+.trustap-success-button.disabled {
+    filter: grayscale(1);
+    opacity: .5;
+    pointer-events: none;
+}
+
+.trustap-settings-form {
+    margin-top: .8rem;
+}
+.trustap-settings-form label {
+    display: flex;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+}
+
+.trustap-settings-form img {
+    height: 18px;
+    margin-left: 6px;
+}
+
+.trustap-settings-form input {
+    margin-bottom: .5em !important;
+}
+.trustap-logout {
+    margin-top: 10px;
+}
+@-webkit-keyframes come-in {
+    0% {
+        opacity: 0;
+        visibility: visible;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0; 
+        visibility: hidden;
+    }
+}
+@keyframes come-in {
+    0% {
+        opacity: 0;
+        visibility: visible;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0; 
+        visibility: hidden;
+    }
+}
+
+/* Tracking details form */
+.trustap-shipping-details-container {
+    display: flex;
+    flex-direction: column;
+}
+.trustap-shipping-details-container input,
+.trustap-shipping-details-container select {
+    margin-bottom: 5px;
+}
+
+/* Step component styling */
+.trustap-step-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: -224px;
+}
+.trustap-step {
+    font-size: 2rem;
+    font-weight: 600;
+    height: 60px;
+    width: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 50%;
+    color: #fff;
+}
+.trustap-step.active {
+    background: -webkit-gradient(linear,left top, right top,color-stop(10%, #00b6ff),color-stop(90%, #05d1b8));
+    background: -o-linear-gradient(left,#00b6ff 10%,#05d1b8 90%);
+    background: linear-gradient(90deg,#00b6ff 10%,#05d1b8 90%);
+}
+.trustap-step.disabled {
+    background: #aaa;
+}
+.trustap-step.success {
+    background-color: #05d1b8;
+}
+.trustap-step img {
+    height: 35px;
+}
+.trustap-step-space {
+    font-size: 2em;
+    font-weight: 600;
+    color: #aaa;
+    margin: 0 3rem;
+}
+
+/* Modal styling */
+.trustap-modal-background {
+    position: fixed;
+    z-index: 999999999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: -webkit-gradient(linear,left top, right top,color-stop(10%, #00b6ff),color-stop(90%, #05d1b8));
+    background: -o-linear-gradient(left,#00b6ff 10%,#05d1b8 90%);
+    background: linear-gradient(90deg,#00b6ff 10%,#05d1b8 90%);
+    -webkit-animation-name: come-in;
+            animation-name: come-in;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    visibility: hidden;
+}
+.trustap-modal-background h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+/* Autocomplete styling */
+.trustap-autocomplete-container {
+    position: relative;
+    max-width: 600px;
+}
+#trustap-autocomplete-input {
+    width: 100%;
+    box-sizing: border-box;
+}
+#trustap-dropdown-container {
+    position: absolute;
+    top: 35px;
+    display: none;
+    border: 1px solid;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 6px;
+    overflow: auto;
+    max-height: 200px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+}
+#trustap-dropdown-container.active {
+    display: block;
+}
+.trustap-autocomplete-item {
+    box-sizing: border-box;
+    width: 100%;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.trustap-autocomplete-item.active,
+.trustap-autocomplete-item:hover {
+    background-color: rgb(226, 226, 226);
+}
+.trustap-confirm-handover .icon {
+    width: 50%;
+    margin: 17px auto 0;
+    display: block;
+}
+.trustap-confirm-handover .button-primary {
+    width: 100%;
+    background: linear-gradient(90deg,#00b6ff,#00eacb) !important;
+    border: none !important;
+    border-radius: 22px !important;
+    font-weight: 700;
+}
